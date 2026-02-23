@@ -78,6 +78,13 @@ Copy the token and visit `http://localhost:8000/invitations/accept/<token>`. On 
 php artisan test
 ```
 
+Or only the short URL tests:
+
+```bash
+php artisan test tests/Feature/ShortUrlCreationTest.php
+```
+
+
 ## Behaviour in short
 
 - **SuperAdmin:** Manages companies and invitations; sees all short URLs (read-only).
